@@ -2,9 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>DoList</title>
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
+    <div class="app-container">
+      <header>
+        <h1>DoList</h1>
+      </header>
+
+      <section>
+        <aside class="calendars-menu">
+          <button type="button" name="createCalendar">Create Calendar</button>
+        </aside>
+
+        <main class="dolist">
+          <button type="button" name="createDo">Create Do</button>
+            <div class="form-hide" id="form-show">
+                <form class="formCreateDo" action="index.html" method="post">
+
+                </form>
+            </div>
+
+          <ul class="calendar-do-list">
+
+          </ul>
+        </main>
+      </section>
+
+    </div>
 
     <script type="text/javascript" src="main.js">
     </script>
