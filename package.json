@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godzilla-mj/project-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Godzilla-mj/project-todo/issues"
+  },
+  "homepage": "https://github.com/Godzilla-mj/project-todo#readme",
+  "dependencies": {
+    "date-fns": "^2.13.0"
+  }
+}
